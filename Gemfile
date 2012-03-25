@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
+gem 'bcrypt-ruby'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -32,6 +33,7 @@ end
 
 group :development do
       gem 'pg'
+      gem 'annotate', '~> 2.4.1.beta'
 end
 
 # To use ActiveModel has_secure_password
