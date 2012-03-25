@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
 gem 'bcrypt-ruby'
+gem 'bootstrap-sass'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -29,6 +30,7 @@ group :test do
       gem 'libnotify'
       gem 'guard-spork', '0.3.2'
       gem 'spork', '~> 0.9.0.rc'
+      gem 'factory_girl_rails'
 end
 
 group :development do
